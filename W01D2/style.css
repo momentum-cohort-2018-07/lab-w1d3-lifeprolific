@@ -1,0 +1,121 @@
+* {
+  font-family: "Open Sans";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgb(242,242,242);
+  margin: 0;
+}
+
+body > * {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #0D3E75;
+  border-bottom: solid #95E0F1 2px;
+}
+
+.site-logo {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 1.6rem;
+}
+
+.container {
+  background-color: white;
+  overflow: auto;
+}
+
+
+h2 {
+  margin: 1.6rem 2rem 1.6rem 2rem;
+}
+
+.container > p {
+  margin: 1.6rem 2rem;
+}
+
+.search {
+  background-color: #F0EDEE;
+  margin: 0 2rem;
+  padding: 1rem;
+}
+
+.search__choice {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1rem 3rem 0 0;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin: 0 0.5rem 0 0;
+}
+
+.row {
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+.animal {
+  float: left;
+  max-width: 300px;
+  height: 360px;
+  vertical-align: top;
+  margin: 0.5rem;
+}
+
+.animal__name {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.animal__trait {
+  display: inline-block;
+  font-size: 0.6rem;
+  background-color: rgb(147,221,238);
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  margin: 0.2rem 0.1rem;
+}
+
+.footer__block {
+  float:left;
+  width: 33.333333%;
+  height: 200px;
+  text-align: center;
+  padding: 60px 0;
+  background-size: cover;
+}
+
+.footer a {
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__block--donate {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url("https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137");
+}
+
+.footer__block--volunteer {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url("https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718");
+}
+
+.footer__block--location {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url("https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805");
+}
