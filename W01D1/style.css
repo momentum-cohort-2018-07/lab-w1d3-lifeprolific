@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FCF7F8;
+  color: #0A090C;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.store-image {
+  width: 100%;
+}
+
+.plant-image {
+  height: 200px;
+  max-width: 50vw;
+  float: right;
+}
+
+dt {
+  font-size: 2rem;
+}
+
+dd {
+  min-height: 200px;
+}
+
+.stock_list {
+  max-width: 600px;
+}
+
+nav {
+  position: fixed;
+  left: 80vw;
+  top: 20vh;
+}
+
+.nav_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+li {
+  margin: 5vh 0vh;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+.hrs_dirs {
+  margin: 30vh 10vw;
+}
